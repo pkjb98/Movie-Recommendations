@@ -59,15 +59,15 @@ def main():
     
     # giving a title 
     
-    st.title ('Movie Recommandation Syatem')
+    st.title ('Movie Recommandation System')
     recommened = ' '
     # getting the movie name from the user
     
-    option = st.selectbox('Select Movie For Similar Reccomendations',list_of_movies)
+    option = st.selectbox('Content Based Recommendations',list_of_movies)
     
     # Creating a butto n for selection
     
-    if st.button('Recommend'):
+    if st.button('Submit'):
         recommend =suggestion(option)
         
         for i in recommend:
