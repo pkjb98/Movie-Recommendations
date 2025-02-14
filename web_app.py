@@ -55,12 +55,12 @@ def suggestion(movie_name):
     
 def main():
     
-    recommened = ' '
+    
     
     # giving a title 
     
     st.title = ('Movie Recommandation Syatem')
-    
+    recommened = ' '
     # getting the movie name from the user
     
     option = st.selectbox('Select Movie For Similar Reccomendations',list_of_movies)
