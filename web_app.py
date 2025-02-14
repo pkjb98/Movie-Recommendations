@@ -59,7 +59,7 @@ def main():
     
     # giving a title 
     
-    st.title = ('Movie Recommandation Syatem')
+    st.title ('Movie Recommandation Syatem')
     recommened = ' '
     # getting the movie name from the user
     
