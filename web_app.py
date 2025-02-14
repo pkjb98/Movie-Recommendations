@@ -59,11 +59,11 @@ def main():
     
     # giving a title 
     
-    st.title ('Movie Recommandation System')
+    st.title ('Movie Recommender System')
     recommened = ' '
     # getting the movie name from the user
     
-    option = st.selectbox('Content Based Recommendations',list_of_movies)
+    option = st.selectbox('Select the Movie ',list_of_movies)
     
     # Creating a butto n for selection
     
